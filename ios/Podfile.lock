@@ -7,6 +7,9 @@ PODS:
   - Firebase/MLVision (6.34.0):
     - Firebase/CoreOnly
     - FirebaseMLVision (~> 0.21.0)
+  - Firebase/MLVisionLabelModel (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVisionLabelModel (~> 0.21.0)
   - firebase_ml_vision (0.1.1):
     - Firebase/Core
     - Firebase/MLVision
@@ -52,6 +55,8 @@ PODS:
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
     - GTMSessionFetcher/Core (~> 1.1)
     - Protobuf (~> 3.12)
+  - FirebaseMLVisionLabelModel (0.21.0):
+    - FirebaseMLVision (~> 0.21)
   - Flutter (1.0.0)
   - GoogleAPIClientForREST/Core (1.5.1):
     - GTMSessionFetcher (>= 1.1.7)
@@ -113,6 +118,7 @@ PODS:
   - Protobuf (3.14.0)
 
 DEPENDENCIES:
+  - Firebase/MLVisionLabelModel
   - firebase_ml_vision (from `.symlinks/plugins/firebase_ml_vision/ios`)
   - Flutter (from `Flutter`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
@@ -126,6 +132,7 @@ SPEC REPOS:
     - FirebaseInstallations
     - FirebaseMLCommon
     - FirebaseMLVision
+    - FirebaseMLVisionLabelModel
     - GoogleAPIClientForREST
     - GoogleAppMeasurement
     - GoogleDataTransport
@@ -153,6 +160,7 @@ SPEC CHECKSUMS:
   FirebaseInstallations: 466c7b4d1f58fe16707693091da253726a731ed2
   FirebaseMLCommon: d218d75dd1c6c4e447f731ac22da56b88cb79431
   FirebaseMLVision: 68dd092b4c52a7ac163ec0d4f541d5711fc9fec6
+  FirebaseMLVisionLabelModel: c6922e607cf4549b14981c80bf0d69eb51a2b547
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   GoogleAPIClientForREST: 4bb409633efcc2e1b3f945afe7e35039b5a61db2
   GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
@@ -165,6 +173,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Protobuf: 0cde852566359049847168e51bd1c690e0f70056
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: 9e69b5e804075304ea505c1a7040a78b001582f5
 
 COCOAPODS: 1.9.1
