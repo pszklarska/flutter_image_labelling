@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       SizedBox(height: 8.0),
                       Text(
                         _labels
-                            .map((label) => '${label.text}'
+                            .map((label) => '${label.text} '
                                 'with confidence ${label.confidence.toStringAsFixed(2)}')
                             .join('\n'),
                         textAlign: TextAlign.center,
